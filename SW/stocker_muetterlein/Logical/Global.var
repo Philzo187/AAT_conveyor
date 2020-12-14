@@ -1,8 +1,29 @@
-
 VAR
-
+	DO_LAMP_GREEN : BOOL;
+	DO_LAMP_RED : BOOL;
+	DO_PNEO_VENT : BOOL;
+	DI_SWITCH_RED : BOOL;
+	DI_SWITCH_GREEN : BOOL;
+	DI_LIGHT_SENSE1 : BOOL;
+	DI_LIGHT_SENSE2 : BOOL;
+	ENUM_FSM_STATE : enumSTATES;
+	bWrongSizePartOnPiston : BOOL;
+	cntWaitInput : UINT;
 END_VAR
-
 VAR CONSTANT
-
+	WAIT_TIME_5S : UINT := 500;
+END_VAR
+VAR
+	cntWaitPiston : UINT;
+END_VAR
+VAR CONSTANT
+	WAIT_TIME_PISTON : UINT := 100;
+END_VAR
+VAR
+	bMotorOn : BOOL;
+	cntTime : UDINT;
+	aPartLengh : ARRAY[0..29] OF UINT;
+	idxPartLenghStart : USINT := 0;
+	idxPartLenghEnd : USINT := 0;
+	currentPartLengh : UINT;
 END_VAR
