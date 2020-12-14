@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<Objects>
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="132524334190435811" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="132524305717430016"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="132524342218498386"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="132524215472116501" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="132524215463063685" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="132524215462933826"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="132524215463003748"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="132524215463063685"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="132524215465946155" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="132524215465806299"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="132524215465876224"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="132524215465946155"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="132524215468759931" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="132524215468620315"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="132524215468680258"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="132524215468749940"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="132524215471856764" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="132524215471816803"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="132524215471836788"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="132524215471856764"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\IEC.prg"
+    LogicalPath="FSM"
+    Type="Program"
+    LastWriteTime="132524243860153043" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Cyclic.st"
+    LogicalPath="FSM.Cyclic.st"
+    Type="File"
+    LastWriteTime="132524341612006651"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Init.st"
+    LogicalPath="FSM.Init.st"
+    Type="File"
+    LastWriteTime="132524338472004565"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Exit.st"
+    LogicalPath="FSM.Exit.st"
+    Type="File"
+    LastWriteTime="132524331106907049"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Types.typ"
+    LogicalPath="FSM.Types.typ"
+    Type="File"
+    LastWriteTime="132524243860133061"
+    Private="true" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Variables.var"
+    LogicalPath="FSM.Variables.var"
+    Type="File"
+    LastWriteTime="132524243860153043"
+    Private="true" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\IEC.prg"
+    LogicalPath="PartControl"
+    Type="Program"
+    LastWriteTime="132524278232381467" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Cyclic.st"
+    LogicalPath="PartControl.Cyclic.st"
+    Type="File"
+    LastWriteTime="132524341186909507"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Init.st"
+    LogicalPath="PartControl.Init.st"
+    Type="File"
+    LastWriteTime="132524278232351495"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Exit.st"
+    LogicalPath="PartControl.Exit.st"
+    Type="File"
+    LastWriteTime="132524278232361485"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Types.typ"
+    LogicalPath="PartControl.Types.typ"
+    Type="File"
+    LastWriteTime="132524278232371476"
+    Private="true" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Variables.var"
+    LogicalPath="PartControl.Variables.var"
+    Type="File"
+    LastWriteTime="132524278232371476"
+    Private="true" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="132524215636404841" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="132524216697886451"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132524244223667279"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\Cpu.pkg"
+    LogicalPath="Config1.X20CP1484_1"
+    Type="Cpu"
+    LastWriteTime="132524215475630425" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\Cpu.sw"
+    LogicalPath="Config1.X20CP1484_1.Cpu.sw"
+    Type="File"
+    LastWriteTime="132524334190685571"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\Cpu.per"
+    LogicalPath="Config1.X20CP1484_1.Cpu.per"
+    Type="File"
+    LastWriteTime="132524215475430630"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\IoMap.iom"
+    LogicalPath="Config1.X20CP1484_1.IoMap.iom"
+    Type="File"
+    LastWriteTime="132524340905126506"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\PvMap.vvm"
+    LogicalPath="Config1.X20CP1484_1.PvMap.vvm"
+    Type="File"
+    LastWriteTime="132524215475620432"
+    Private="false" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132524329614853425"
+    Private="false" />
+</Objects>

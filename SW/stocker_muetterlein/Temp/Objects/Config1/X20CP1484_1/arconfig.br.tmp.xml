@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="X20CP1484-1">
+    <Parameter ID="HardwareModuleName" Value="X20CP1484_1" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="$root.IO" Hardware="X20CP1484-1">
+    <Parameter ID="ActivateOpc" Value="0" />
+    <Parameter ID="OpcServerName" Value="BR.OPC.Server_AR" />
+  </Module>
+  <Module ID="IF3" Hardware="X20CP1484-1">
+    <Parameter ID="Operation" Value="EPL-V2" />
+    <Parameter ID="MtuSize" Value="300" Type="UDINT" />
+  </Module>
+  <Module ID="IF3.PLK" Hardware="EPL-V2">
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="MuxPrescaler" Value="8" Type="UDINT" />
+    <Parameter ID="Mode" Value="MN" />
+    <Parameter ID="NodeID" Value="240" Type="DINT" />
+    <Parameter ID="AsyncTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="TransferOnlyActive" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="off" />
+    <Parameter ID="EplNatSubnet" Value="192.168.101.0" />
+    <Parameter ID="ApplSwDate" Value="0" Type="UDINT" />
+    <Parameter ID="ApplSwTime" Value="0" Type="UDINT" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF6.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="1000" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="on" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF6.ST1" Hardware="X20SM1426">
+    <Parameter ID="HardwareModuleName" Value="X20SM1426" />
+  </Module>
+  <Module ID="IF6.ST1.IO" Hardware="X20SM1426">
+    <Parameter ID="FunctionModel" Value="Ramp" />
+    <Parameter ID="FunctionModelNumber" Value="3" Type="USINT" />
+    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="EnhancedControlword01" Value="off" />
+    <Parameter ID="EnableMotorLoadDisplay" Value="off" />
+    <Parameter ID="MPGenCycleIdx01" Value="25ms" />
+    <Parameter ID="FullStepThreshold01_conf" Value="65535" Type="UINT" />
+    <Parameter ID="HoldingCurrent01" Value="0" Type="USINT" />
+    <Parameter ID="RatedCurrent01" Value="0" Type="USINT" />
+    <Parameter ID="MaximumCurrent01" Value="0" Type="USINT" />
+    <Parameter ID="StallDetection01" Value="0" Type="USINT" />
+    <Parameter ID="StallDetectionMinSpeed01" Value="0" Type="UINT" />
+    <Parameter ID="MixedDecayConfiguration01" Value="15" Type="UINT" />
+    <Parameter ID="RefConfig01_selector" Value="pos. edge" />
+    <Parameter ID="StallRecognitionDelay01_conf" Value="8" Type="USINT" />
+    <Parameter ID="DirectionControl01" Value="off" />
+    <Parameter ID="NegLimitSwitch01" Value="disabled" />
+    <Parameter ID="PosLimitSwitch01" Value="disabled" />
+    <Parameter ID="PositionLimitMin01" Value="0" Type="DINT" />
+    <Parameter ID="PositionLimitMax01" Value="0" Type="DINT" />
+    <Parameter ID="MaxSpeed01pos_conf" Value="0" Type="UINT" />
+    <Parameter ID="MaxAcc01_conf" Value="0" Type="UINT" />
+    <Parameter ID="MaxDec01_conf" Value="0" Type="UINT" />
+    <Parameter ID="RevLoop01_conf" Value="0" Type="INT" />
+    <Parameter ID="FixedPos01a_conf" Value="0" Type="DINT" />
+    <Parameter ID="FixedPos01b_conf" Value="0" Type="DINT" />
+    <Parameter ID="RefSpeed01_conf" Value="0" Type="UINT" />
+    <Parameter ID="JoltTime01_conf" Value="0" Type="USINT" />
+  </Module>
+  <Module ID="IF6.ST2" Hardware="X20DM9324">
+    <Parameter ID="HardwareModuleName" Value="X20DM9324" />
+  </Module>
+  <Module ID="IF6.ST2.IO" Hardware="X20DM9324">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="DigitalInputsPacked" Value="off" />
+    <Parameter ID="DigitalOutputsPacked" Value="off" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+  </Module>
+</IOCFG>
