@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.81.27 SP05?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="File" Description="Global variables">Global.var</Object>
+    <Object Type="File">Global.h</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Program" Language="ANSIC" Description="Demo Program">Stop_at_Lightsensor</Object>
+    <Object Type="Program" Language="ANSIC" Description="Simulator of the Conveyor Hardware">Conveyor_Simulator</Object>
+  </Objects>
+</Package>

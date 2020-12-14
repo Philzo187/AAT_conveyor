@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.17.85 SP?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="PLC1" Type="X20CP1484-1" Version="1.1.2.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="PLC1.IF6" />
+    <Parameter ID="TaskClassIdleTime" Value="2000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic1Output" Value="1" />
+    <Parameter ID="Cyclic2Duration" Value="20000" />
+    <Parameter ID="Cyclic2Tolerance" Value="20000" />
+    <Parameter ID="Cyclic3Duration" Value="50000" />
+    <Parameter ID="Cyclic3Tolerance" Value="50000" />
+    <Parameter ID="Cyclic4Duration" Value="100000" />
+    <Parameter ID="Cyclic4Tolerance" Value="100000" />
+    <Parameter ID="Cyclic5Duration" Value="200000" />
+    <Parameter ID="Cyclic5Tolerance" Value="200000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="PLC1" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DM9324" Type="X20DM9324" Version="1.0.1.0">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="StatusInfo" Value="off" />
+  </Module>
+  <Module Name="X20SM1426" Type="X20SM1426" Version="1.3.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="Ramp" />
+    <Parameter ID="RatedCurrent01" Value="70" />
+    <Parameter ID="MaximumCurrent01" Value="80" />
+    <Parameter ID="MaxSpeed01pos_conf" Value="11250" />
+    <Parameter ID="MaxAcc01_conf" Value="1280" />
+    <Parameter ID="MaxDec01_conf" Value="1280" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>

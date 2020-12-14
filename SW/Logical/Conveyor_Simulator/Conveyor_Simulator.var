@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Conveyor_Simulator
+ * File: Conveyor_Simulator.var
+ * Author: Christoph Gruber
+ * Created: November 15, 2011
+ ********************************************************************
+ * Local variables of program Conveyor_Simulator
+ ********************************************************************)
+VAR
+	old_controlword : UINT := 0;
+END_VAR
