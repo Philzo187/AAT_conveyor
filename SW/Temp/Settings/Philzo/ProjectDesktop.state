@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<?AutomationStudio Version=3.0?>
-<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Conveyor_Simulation"/><ConfigurationFiles ConfigurationName="Conveyor_Simulation" ActiveConfigurationFile="\Logical\Global.var"><ConfigurationFile Placement="\Logical\Conveyor_Simulator\Conveyor_SimulatorCyclic.c,Conveyor_Simulator,2,44,0,1,-1,-1,-1,-1,2,24,1179,743"/><ConfigurationFile Placement="\Logical\Global.typ,,1,44,0,1,-1,-1,-1,-1,2,24,1179,743"/><ConfigurationFile Placement="\Logical\Global.var,,1,44,0,1,-1,-1,-1,-1,2,24,1179,743"/></ConfigurationFiles></Project>
