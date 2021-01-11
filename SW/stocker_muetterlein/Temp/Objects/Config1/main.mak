@@ -1,7 +1,7 @@
 SHELL := cmd.exe
 CYGWIN=nontsec
-export PATH := C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\SIMULIA\Commands;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files (x86)\GnuPG\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Polyspace\R2020a\runtime\win64;C:\Program Files\Polyspace\R2020a\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Programme\Siemens\NX1872\CAPITALINTEGRATION\capitalnxremote\;C:\MinGW\bin;C:\Program Files\TortoiseGit\bin;C:\Users\Philzo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\Philzo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode
-export AS_BUILD_MODE := Build
+export PATH := C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\SIMULIA\Commands;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files (x86)\GnuPG\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Polyspace\R2020a\runtime\win64;C:\Program Files\Polyspace\R2020a\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Programme\Siemens\NX1872\CAPITALINTEGRATION\capitalnxremote\;C:\MinGW\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\7-Zip;C:\Users\Philzo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\Philzo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode
+export AS_BUILD_MODE := Rebuild
 export AS_VERSION := 4.5.2.102
 export AS_COMPANY_NAME :=  
 export AS_USER_NAME := Philzo
@@ -34,5 +34,5 @@ export WIN32_AS_INSTALL_PATH := "C:\BrAutomation\AS45"
 
 ProjectMakeFile:
 
-	@'$(AS_BIN_PATH)/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/stocker_muetterlein.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Build'   
+	@'$(AS_BIN_PATH)/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/stocker_muetterlein.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Rebuild'   
 

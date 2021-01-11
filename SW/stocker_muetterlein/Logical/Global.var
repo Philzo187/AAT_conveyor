@@ -1,14 +1,15 @@
 VAR
-	aPartLengh : ARRAY[0..29] OF UINT;
+	AIN_ABS_POS : DINT;
+	aPartLengh : ARRAY[0..29] OF DINT;
 	bMotorOn : BOOL := FALSE;
 	bWrongSizePartOnPiston : BOOL := FALSE;
 	cntParts : UINT := 0;
-	cntTime : UDINT := 0;
 	cntWaitInput : UINT := 0;
 	cntWaitPiston : UINT := 0;
-	currentPartLengh : UINT := 0;
 	DI_LIGHT_SENSE1 : BOOL := FALSE;
+	DI_LIGHT_SENSE1_OLD : BOOL := FALSE;
 	DI_LIGHT_SENSE2 : BOOL := FALSE;
+	DI_LIGHT_SENSE2_OLD : BOOL := FALSE;
 	DI_SWITCH_GREEN : BOOL := FALSE;
 	DI_SWITCH_RED : BOOL := FALSE;
 	DO_LAMP_GREEN : BOOL := FALSE;
@@ -17,8 +18,14 @@ VAR
 	ENUM_FSM_STATE : enumSTATES := 0;
 	idxPartLenghEnd : USINT := 0;
 	idxPartLenghStart : USINT := 0;
+	PART_LENGH_MAX : {REDUND_UNREPLICABLE} USINT := 120;
+	PART_LENGH_MIN : {REDUND_UNREPLICABLE} USINT := 80;
 END_VAR
 VAR CONSTANT
+	SCALE_POS : DINT := 0;
 	WAIT_TIME_5S : UINT := 500;
 	WAIT_TIME_PISTON : UINT := 100;
+END_VAR
+VAR
+	currentPartStartPos : DINT;
 END_VAR

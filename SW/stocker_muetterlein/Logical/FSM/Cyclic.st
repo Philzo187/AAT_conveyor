@@ -14,9 +14,6 @@ PROGRAM _CYCLIC
 			END_IF
 			
 		STEP1:
-			// TODO KONTROLLE TEIL
-			
-			
 			IF DI_SWITCH_RED = TRUE THEN
 				//new case:
 				ENUM_FSM_STATE := IDLE;
@@ -25,10 +22,10 @@ PROGRAM _CYCLIC
 				DO_LAMP_RED := TRUE;
 				// TODO: MOTOR OFF
 			END_IF
-			// TODO: set BOOL
 			IF bWrongSizePartOnPiston = TRUE THEN
 				//new case:
 				ENUM_FSM_STATE := STEP2;
+				//set outputs
 				// TODO: MOTOR OFF
 			END_IF
 		STEP2:
