@@ -5,7 +5,7 @@
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="132524334190435811" />
+    LastWriteTime="132548382236380229" />
   <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -16,7 +16,7 @@
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="132548337587785563"
+    LastWriteTime="132548388856278284"
     Private="false" />
   <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Libraries\Package.pkg"
@@ -159,7 +159,7 @@
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Cyclic.st"
     LogicalPath="PartControl.Cyclic.st"
     Type="File"
-    LastWriteTime="132548336497552175"
+    LastWriteTime="132548388879794359"
     Private="false" />
   <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Init.st"
@@ -186,6 +186,17 @@
     LastWriteTime="132524278232371476"
     Private="true" />
   <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Visu\Vc.dob"
+    LogicalPath="Visu"
+    Type="DataObject"
+    LastWriteTime="132548305546308788" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\Visu\VCObject.vc"
+    LogicalPath="Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="132548305546302638"
+    Private="false" />
+  <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
     Type="Configuration.ParentUnknown"
@@ -194,7 +205,7 @@
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="132548320110504146"
+    LastWriteTime="132548383046544758"
     Private="false" />
   <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Hardware.hwl"
@@ -206,12 +217,12 @@
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\Cpu.pkg"
     LogicalPath="Config1.X20CP1484_1"
     Type="Cpu"
-    LastWriteTime="132524215475630425" />
+    LastWriteTime="132548383043537504" />
   <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\Cpu.sw"
     LogicalPath="Config1.X20CP1484_1.Cpu.sw"
     Type="File"
-    LastWriteTime="132524334190685571"
+    LastWriteTime="132548382260115378"
     Private="false" />
   <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\Cpu.per"
@@ -223,7 +234,7 @@
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\IoMap.iom"
     LogicalPath="Config1.X20CP1484_1.IoMap.iom"
     Type="File"
-    LastWriteTime="132548320029551710"
+    LastWriteTime="132548380633768632"
     Private="false" />
   <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\PvMap.vvm"
@@ -232,9 +243,20 @@
     LastWriteTime="132524215475620432"
     Private="false" />
   <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\VC\Package.pkg"
+    LogicalPath="Config1.X20CP1484_1.VC"
+    Type="Package"
+    LastWriteTime="132548383044852232" />
+  <Object
+    Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\X20CP1484_1\VC\PS2-Keyboard.dis"
+    LogicalPath="Config1.X20CP1484_1.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="132548383045164706"
+    Private="false" />
+  <Object
     Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="132548337587665692"
+    LastWriteTime="132548391605072946"
     Private="false" />
 </Objects>

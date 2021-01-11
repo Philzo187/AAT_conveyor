@@ -1,0 +1,10 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Physical/Config1/X20CP1484_1/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="FSM" Source="FSM.prg" />
+      <Task Name="PartContro" Source="PartControl.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\ashwac.br">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\visu\visu.mak">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\cyclic.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro\cyclic.st.o">
@@ -9,43 +12,46 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\sysconf.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\cyclic.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\init.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro\init.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\init.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro\exit.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\exit.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro\exit.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro\partcontro.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\udbdef.br">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm\fsm.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\ashwac.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\fsm.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro\partcontro.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\partcontro.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\udbdef.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\asfw.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\visu.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1484_1\ashwd.br">

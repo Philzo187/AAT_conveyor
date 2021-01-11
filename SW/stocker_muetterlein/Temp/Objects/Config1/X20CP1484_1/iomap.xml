@@ -184,6 +184,7 @@
 </LN>
 <LN ID="%ID.IF6.ST1.AbsPos01ActVal" Type="DINT">
 <Prod Device="IF6.ST1" DPName="AbsPos01ActVal" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="AIN_ABS_POS" Kind="pv"/>
 </LN>
 <LN ID="%IW.IF6.ST1.MpGenStatus01" Type="UINT">
 <Prod Device="IF6.ST1" DPName="MpGenStatus01" Kind="io"/>

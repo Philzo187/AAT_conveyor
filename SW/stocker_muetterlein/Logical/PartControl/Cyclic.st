@@ -9,6 +9,7 @@ PROGRAM _CYCLIC
 		IF (DI_LIGHT_SENSE1 = FALSE) AND (DI_LIGHT_SENSE1_OLD = TRUE) THEN
 			aPartLengh[idxPartLenghStart] := (AIN_ABS_POS - currentPartStartPos) * SCALE_POS;
 			cntParts := cntParts +1;
+			LastPartLengh := aPartLengh[idxPartLenghStart];
 			//add to queue:
 			IF idxPartLenghStart >19 THEN
 				idxPartLenghStart := idxPartLenghStart +1;

@@ -7,5 +7,6 @@
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="Program" Language="IEC">FSM</Object>
     <Object Type="Program" Language="IEC">PartControl</Object>
+    <Object Type="DataObject" Language="Vc" Description="640x480 (VGA)">Visu</Object>
   </Objects>
 </Package>
