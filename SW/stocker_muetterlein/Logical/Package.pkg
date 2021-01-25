@@ -8,5 +8,6 @@
     <Object Type="Program" Language="IEC">FSM</Object>
     <Object Type="Program" Language="IEC">PartControl</Object>
     <Object Type="DataObject" Language="Vc" Description="640x480 (VGA)">Visu</Object>
+    <Object Type="Program" Language="IEC">MotorControl</Object>
   </Objects>
 </Package>

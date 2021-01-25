@@ -13,6 +13,8 @@
       <Group ID="Vnc1" />
       <Parameter ID="VncVcObjectName1" Value="Visu" />
       <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncAuthentication1" Value="1" />
+      <Parameter ID="VncPasswordViewControl1" Value="abcd" />
     </Connector>
   </Module>
   <Module Name="X20DM9324" Type="X20DM9324" Version="1.0.4.0">
@@ -23,6 +25,12 @@
     <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
     <Parameter ID="FunctionModel" Value="Ramp" />
+    <Parameter ID="HoldingCurrent01" Value="100" />
+    <Parameter ID="RatedCurrent01" Value="100" />
+    <Parameter ID="MaximumCurrent01" Value="100" />
+    <Parameter ID="MaxSpeed01pos_conf" Value="2500" />
+    <Parameter ID="MaxAcc01_conf" Value="2500" />
+    <Parameter ID="MaxDec01_conf" Value="2500" />
   </Module>
   <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
   <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />

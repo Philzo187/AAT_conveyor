@@ -50,9 +50,9 @@
     <Parameter ID="EnableMotorLoadDisplay" Value="off" />
     <Parameter ID="MPGenCycleIdx01" Value="25ms" />
     <Parameter ID="FullStepThreshold01_conf" Value="65535" Type="UINT" />
-    <Parameter ID="HoldingCurrent01" Value="0" Type="USINT" />
-    <Parameter ID="RatedCurrent01" Value="0" Type="USINT" />
-    <Parameter ID="MaximumCurrent01" Value="0" Type="USINT" />
+    <Parameter ID="HoldingCurrent01" Value="100" Type="USINT" />
+    <Parameter ID="RatedCurrent01" Value="100" Type="USINT" />
+    <Parameter ID="MaximumCurrent01" Value="100" Type="USINT" />
     <Parameter ID="StallDetection01" Value="0" Type="USINT" />
     <Parameter ID="StallDetectionMinSpeed01" Value="0" Type="UINT" />
     <Parameter ID="MixedDecayConfiguration01" Value="15" Type="UINT" />
@@ -63,9 +63,9 @@
     <Parameter ID="PosLimitSwitch01" Value="disabled" />
     <Parameter ID="PositionLimitMin01" Value="0" Type="DINT" />
     <Parameter ID="PositionLimitMax01" Value="0" Type="DINT" />
-    <Parameter ID="MaxSpeed01pos_conf" Value="0" Type="UINT" />
-    <Parameter ID="MaxAcc01_conf" Value="0" Type="UINT" />
-    <Parameter ID="MaxDec01_conf" Value="0" Type="UINT" />
+    <Parameter ID="MaxSpeed01pos_conf" Value="2500" Type="UINT" />
+    <Parameter ID="MaxAcc01_conf" Value="2500" Type="UINT" />
+    <Parameter ID="MaxDec01_conf" Value="2500" Type="UINT" />
     <Parameter ID="RevLoop01_conf" Value="0" Type="INT" />
     <Parameter ID="FixedPos01a_conf" Value="0" Type="DINT" />
     <Parameter ID="FixedPos01b_conf" Value="0" Type="DINT" />

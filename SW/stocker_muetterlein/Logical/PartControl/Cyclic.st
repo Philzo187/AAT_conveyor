@@ -7,32 +7,44 @@ PROGRAM _CYCLIC
 			// TODO ADD velocity
 		END_IF
 		IF (DI_LIGHT_SENSE1 = FALSE) AND (DI_LIGHT_SENSE1_OLD = TRUE) THEN
-			aPartLengh[idxPartLenghStart] := (AIN_ABS_POS - currentPartStartPos) * SCALE_POS;
+			LastPartLengh := (AIN_ABS_POS - currentPartStartPos) / SCALE_POS;
+			aPartLengh[idxPartLenghStart] := LastPartLengh;
 			cntParts := cntParts +1;
-			LastPartLengh := aPartLengh[idxPartLenghStart];
 			//add to queue:
 			IF idxPartLenghStart >19 THEN
-				idxPartLenghStart := idxPartLenghStart +1;
-			ELSE
 				idxPartLenghStart := 0;
-			END_IF
-		END_IF
-		DI_LIGHT_SENSE1_OLD := DI_LIGHT_SENSE1;
-		
-		IF (DI_LIGHT_SENSE2 = TRUE) AND ((aPartLengh[idxPartLenghEnd] <= PART_LENGH_MIN) OR (aPartLengh[idxPartLenghEnd] >= PART_LENGH_MAX)) THEN
-			bWrongSizePartOnPiston := TRUE;
-		END_IF
-		
-		IF (DI_LIGHT_SENSE2 = FALSE) AND (DI_LIGHT_SENSE2_OLD = TRUE) THEN
-			IF idxPartLenghEnd >19 THEN
-				idxPartLenghEnd := idxPartLenghEnd +1;
 			ELSE
-				idxPartLenghEnd := 0;
+				idxPartLenghStart := idxPartLenghStart +1;
 			END_IF
-			cntParts := cntParts - 1;
 		END_IF
-		DI_LIGHT_SENSE2_OLD := DI_LIGHT_SENSE2;
+		
+		IF (DI_LIGHT_SENSE2 = TRUE) AND (DI_LIGHT_SENSE2_OLD = FALSE) THEN
+			cntPartTotal := cntPartTotal + 1;
+			IF (aPartLengh[idxPartLenghEnd] <= PART_LENGH_MIN) THEN
+				bWrongSizePartOnPiston := TRUE; 
+				LastPartStatus := "TOO SHORT";
+			ELSIF (aPartLengh[idxPartLenghEnd] >= PART_LENGH_MAX) THEN
+				bWrongSizePartOnPiston := TRUE; 
+				LastPartStatus := "TOO LONG";
+			ELSE
+				cntPartOk := cntPartOk + 1;
+				LastPartStatus := "OK";
+			END_IF
+		END_IF
+		
+
 	END_IF
 	
+	IF (DI_LIGHT_SENSE2 = FALSE) AND (DI_LIGHT_SENSE2_OLD = TRUE) THEN
+		IF idxPartLenghEnd >19 THEN
+			idxPartLenghEnd := 0;
+		ELSE
+			idxPartLenghEnd := idxPartLenghEnd +1;
+		END_IF
+		cntParts := cntParts - 1;
+	END_IF
+	
+	DI_LIGHT_SENSE1_OLD := DI_LIGHT_SENSE1;
+	DI_LIGHT_SENSE2_OLD := DI_LIGHT_SENSE2;
 
 END_PROGRAM

@@ -288,8 +288,8 @@
         <Property Name="HorizontalResolution" Value="640" />
         <Property Name="VerticalRefreshRate" Value="1000" />
         <Property Name="Rotation" Value="0" />
-        <Property Name="Authentication" Value="False" />
-        <Property Name="Password" Value="" />
+        <Property Name="Authentication" Value="True" />
+        <Property Name="Password" Value="abcd" />
         <Property Name="ReadOnlyPassword" Value="" />
         <Property Name="MaxClients" Value="1" />
         <Property Name="Title" Value="" />

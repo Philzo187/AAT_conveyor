@@ -1,4 +1,4 @@
-Connection "/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0", "/RT=1000 /AM=*"
+Connection "", ""
 Diagnose
 DeleteMemory ROM
 Coldstart
@@ -47,3 +47,4 @@ Download: ".\vctcal.br", "ROM"
 Download: ".\Visu.br", "ROM"
 Download: ".\FSM.br", "ROM"
 Download: ".\PartContro.br", "ROM"
+Download: ".\MotorContr.br", "ROM"

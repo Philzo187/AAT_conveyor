@@ -174,12 +174,15 @@
 <Prod Device="IF6.ST1" DPName="FirmwareVersion" Kind="io"/>
 </LN>
 <LN ID="%QD.IF6.ST1.AbsPos01" Type="DINT">
+<Prod Device="TC#1-CPYDEV" DPName="GAO_VELOCITY" Kind="pv"/>
 <Cons Device="IF6.ST1" DPName="AbsPos01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF6.ST1.MpGenControl01" Type="UINT">
+<Prod Device="TC#1-CPYDEV" DPName="GAO_CONTROLWORD" Kind="pv"/>
 <Cons Device="IF6.ST1" DPName="MpGenControl01" Kind="io"/>
 </LN>
 <LN ID="%QB.IF6.ST1.MpGenMode01" Type="SINT">
+<Prod Device="TC#1-CPYDEV" DPName="GAO_MOTORMODE" Kind="pv"/>
 <Cons Device="IF6.ST1" DPName="MpGenMode01" Kind="io"/>
 </LN>
 <LN ID="%ID.IF6.ST1.AbsPos01ActVal" Type="DINT">
@@ -188,6 +191,7 @@
 </LN>
 <LN ID="%IW.IF6.ST1.MpGenStatus01" Type="UINT">
 <Prod Device="IF6.ST1" DPName="MpGenStatus01" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="GAI_STATUSWORD" Kind="pv"/>
 </LN>
 <LN ID="%IB.IF6.ST1.InputStatus" Type="USINT">
 <Prod Device="IF6.ST1" DPName="InputStatus" Kind="io"/>
@@ -260,6 +264,7 @@
 </LN>
 <LN ID="%IX.IF6.ST2.DigitalInput04" Type="BOOL">
 <Prod Device="IF6.ST2" DPName="DigitalInput04" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="DI_LIGHT_SENSE2" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF6.ST2.DigitalInput05" Type="BOOL">
 <Prod Device="IF6.ST2" DPName="DigitalInput05" Kind="io"/>

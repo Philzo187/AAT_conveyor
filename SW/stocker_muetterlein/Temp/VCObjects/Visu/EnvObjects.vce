@@ -12,17 +12,17 @@
       <Property Name="ParentObjectName" Value="Init_Page"/>
       <Property Name="ParentObjectType" Value="Page"/>
       <Property Name="ShowCmd" Value="1"/>
-      <Property Name="WndPosBottom" Value="537"/>
-      <Property Name="WndPosLeft" Value="0"/>
-      <Property Name="WndPosRight" Value="783"/>
-      <Property Name="WndPosTop" Value="0"/>
+      <Property Name="WndPosBottom" Value="524"/>
+      <Property Name="WndPosLeft" Value="-83"/>
+      <Property Name="WndPosRight" Value="700"/>
+      <Property Name="WndPosTop" Value="-13"/>
       <Views>
         <View>
           <Property Name="ID" Value="32"/>
           <Property Name="Scalecx" Value="4"/>
           <Property Name="Scalecy" Value="4"/>
           <Property Name="ScrollPositionX" Value="0"/>
-          <Property Name="ScrollPositionY" Value="7"/>
+          <Property Name="ScrollPositionY" Value="22"/>
         </View>
         <View>
           <Property Name="ID" Value="536870912"/>

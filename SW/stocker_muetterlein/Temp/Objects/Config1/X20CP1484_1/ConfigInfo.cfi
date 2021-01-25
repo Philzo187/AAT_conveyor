@@ -9,15 +9,15 @@
       Source="FSM"
       Language="IEC">
       <InternalFile
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\FSM\Cyclic.st.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\FSM\Cyclic.st.var" />
       <InternalFile
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\FSM\Init.st.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\FSM\Init.st.var" />
       <InternalFile
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\FSM\Exit.st.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\FSM\Exit.st.var" />
       <File
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Types.typ" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Types.typ" />
       <File
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Variables.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Logical\FSM\Variables.var" />
     </Task>
     <Task
       Name="PartContro"
@@ -25,15 +25,31 @@
       Source="PartControl"
       Language="IEC">
       <InternalFile
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\PartContro\Cyclic.st.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\PartContro\Cyclic.st.var" />
       <InternalFile
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\PartContro\Init.st.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\PartContro\Init.st.var" />
       <InternalFile
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\PartContro\Exit.st.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\PartContro\Exit.st.var" />
       <File
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Types.typ" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Types.typ" />
       <File
-        Path="D:\GIT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Variables.var" />
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Logical\PartControl\Variables.var" />
+    </Task>
+    <Task
+      Name="MotorContr"
+      Disable="false"
+      Source="MotorControl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\MotorContr\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\MotorContr\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Temp\Objects\Config1\X20CP1484_1\MotorContr\Exit.st.var" />
+      <File
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Logical\MotorControl\Types.typ" />
+      <File
+        Path="C:\Users\laboruser\Desktop\MuetterleinStockerAAT\AAT_conveyor\SW\stocker_muetterlein\Logical\MotorControl\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

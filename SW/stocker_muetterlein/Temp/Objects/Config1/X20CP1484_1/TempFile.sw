@@ -4,6 +4,7 @@
   <TaskClass Name="Cyclic#1">
     <Task Name="FSM" Source="FSM.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="PartContro" Source="PartControl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="MotorContr" Source="MotorControl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />

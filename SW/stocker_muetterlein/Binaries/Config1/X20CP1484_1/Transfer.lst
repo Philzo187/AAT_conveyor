@@ -3,6 +3,7 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="F3.10"/>
   <Hardware Target="SG4"/>
+  <Operation Delete="MotorContr.br"/>
   <Operation Delete="PartContro.br"/>
   <Operation Delete="FSM.br"/>
   <Operation Delete="Visu.br"/>
@@ -79,4 +80,5 @@
   <Operation Download="Visu.br" Memory="UserROM"/>
   <Operation Download="FSM.br" Memory="UserROM"/>
   <Operation Download="PartContro.br" Memory="UserROM"/>
+  <Operation Download="MotorContr.br" Memory="UserROM"/>
 </Transfer>

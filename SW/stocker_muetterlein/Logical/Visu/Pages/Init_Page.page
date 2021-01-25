@@ -139,7 +139,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="272"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Velocity]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="60"/>
         </Control>
@@ -252,7 +252,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="373"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.cntPartTotal]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="100"/>
         </Control>
@@ -299,7 +299,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="373"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.cntPartOk]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="100"/>
         </Control>
@@ -318,7 +318,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="373"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.cntPartRej]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="100"/>
         </Control>
@@ -369,10 +369,10 @@
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="310"/>
-          <Property Name="SimulationValue" Value="TOO SHORT"/>
+          <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="266"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.LastPartStatus]"/>
           <Property Name="Width" Value="81"/>
         </Control>
       </Controls>

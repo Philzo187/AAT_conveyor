@@ -57,7 +57,7 @@ LIB_LOCAL_OBJ_Visu=$(TEMP_PATH_Visu)/localobj.vca
 # Hardware sources
 PANEL_HW_OBJECT_Visu=$(TEMP_PATH_ROOT_Visu)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu/dis.Hardware.vco
 PANEL_HW_VCI_Visu=$(TEMP_PATH_ROOT_Visu)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu/dis.Hardware.vci
-PANEL_HW_SOURCE_Visu=D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Physical/Config1/Hardware.hw 
+PANEL_HW_SOURCE_Visu=C:/Users/laboruser/Desktop/MuetterleinStockerAAT/AAT_conveyor/SW/stocker_muetterlein/Physical/Config1/Hardware.hw 
 DIS_OBJECTS_Visu=$(PANEL_HW_OBJECT_Visu) $(KEYMAP_OBJECTS_Visu)
 
 # KeyMapping flags
@@ -269,27 +269,27 @@ $(VCVK_OBJECTS_Visu): $(VC_LANGUAGES_Visu)
 TPR_OBJECTS_Visu = $(addprefix $(TEMP_PATH_Visu)/tpr., $(notdir $(TPR_SOURCES_Visu:.tpr=.vco)))
 
 $(TEMP_PATH_Visu)/tpr.NumPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/NumPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/laboruser/Desktop/MuetterleinStockerAAT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.AlphaPadQVGA.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/AlphaPadQVGA.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/laboruser/Desktop/MuetterleinStockerAAT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.AlphaPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/AlphaPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/laboruser/Desktop/MuetterleinStockerAAT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.NavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/NavigationPad_ver.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/laboruser/Desktop/MuetterleinStockerAAT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.NavigationPad_hor.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/NavigationPad_hor.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/laboruser/Desktop/MuetterleinStockerAAT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.EditPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/EditPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'D:/GIT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/laboruser/Desktop/MuetterleinStockerAAT/AAT_conveyor/SW/stocker_muetterlein/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 #Touch Pads END
@@ -749,3 +749,11 @@ $(TEMP_PATH_Visu)/Visu03.ccf: $(LIB_SHARED) $(SHARED_CCF) $(BMGRP_OBJECTS_Visu) 
 	$(LINK) '$@.lfl' -o '$@' -p Visu -lib '$(LIB_BMP_RES_Visu)' -P '$(AS_PROJECT_PATH)' -m 'bitmap resources' -profile 'False' -warningLevel2 -vcr 4520 -sfas
 # 03 Module END
 
+# Post Build Steps
+
+.PHONY : vcPostBuild_Visu
+
+vcPostBuild_Visu :
+	$(VCC) -pb -vcm '$(TEMP_PATH_Visu)/MODULEFILES.vcm' -fw '$(VCFIRMWAREPATH)' $(VCCFLAGS_Visu) -p Visu -vcr 4520 -sfas
+
+# Post Build Steps END

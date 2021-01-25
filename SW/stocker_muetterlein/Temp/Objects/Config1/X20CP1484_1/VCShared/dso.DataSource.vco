@@ -7,8 +7,8 @@
         <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
           <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <Reference Name="TextGroup" Type="TG">None</Reference>
-          <UInt32 Name="PVCount">4</UInt32>
-          <UInt32 Name="ImageSize">14</UInt32>
+          <UInt32 Name="PVCount">9</UInt32>
+          <UInt32 Name="ImageSize">181</UInt32>
           <Table Name="Variables" Cols="5">
             <TableHeader>
               <Column Name="PVID" />
@@ -53,8 +53,53 @@
               <Double Name="PVMaxVal">2147483647</Double>
               <Int32 Name="Offset">39</Int32>
             </Group>
+            <Group Name="LastPartStatus">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">9</UInt16>
+              <UInt32 Name="PVOffset">14</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">53</Int32>
+            </Group>
+            <Group Name="Velocity">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">176</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">68</Int32>
+            </Group>
+            <Group Name="cntPartTotal">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">178</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">77</Int32>
+            </Group>
+            <Group Name="cntPartOk">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">179</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">90</Int32>
+            </Group>
+            <Group Name="cntPartRej">
+              <UInt16 Name="ID">8</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">180</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">100</Int32>
+            </Group>
           </Table>
-          <Binary Name="Name" Encoding="Base64">UEFSVF9MRU5HSF9NSU4AUEFSVF9MRU5HSF9NQVgAY250UGFydHMATGFzdFBhcnRMZW5naAA=</Binary>
+          <Binary Name="Name" Encoding="Base64">UEFSVF9MRU5HSF9NSU4AUEFSVF9MRU5HSF9NQVgAY250UGFydHMATGFzdFBhcnRMZW5naABMYXN0UGFydFN0YXR1cwBWZWxvY2l0eQBjbnRQYXJ0VG90YWwAY250UGFydE9rAGNudFBhcnRSZWoA</Binary>
         </Object>
       </Folder>
     </Folder>

@@ -10,7 +10,7 @@ PROGRAM _CYCLIC
 				//set outputs
 				DO_LAMP_GREEN := TRUE;
 				DO_LAMP_RED := FALSE;
-				// TODO: MOTOR ON
+				bMotorOn := TRUE;
 			END_IF
 			
 		STEP1:
@@ -20,16 +20,17 @@ PROGRAM _CYCLIC
 				//set outputs
 				DO_LAMP_GREEN := FALSE;
 				DO_LAMP_RED := TRUE;
-				// TODO: MOTOR OFF
+				bMotorOn := FALSE;
 			END_IF
 			IF bWrongSizePartOnPiston = TRUE THEN
 				//new case:
 				ENUM_FSM_STATE := STEP2;
 				//set outputs
-				// TODO: MOTOR OFF
+				bMotorOn := FALSE;
 			END_IF
 		STEP2:
 			cntWaitInput := cntWaitInput -1;
+			bWrongSizePartOnPiston := FALSE;
 			IF cntWaitInput = 0 THEN //5s timer elapsed = espulsion
 				//new case:
 				ENUM_FSM_STATE := STEP3;
@@ -45,22 +46,24 @@ PROGRAM _CYCLIC
 				//reset counters
 				cntWaitInput := WAIT_TIME_5S;
 				//set outputs
-				// TODO: MOTOR ON
+				cntPartOk := cntPartOk + 1;
+				bMotorOn := TRUE;
 			END_IF
 			
 		// here the part is at the piston and will be ejected
 		STEP3:
 			cntWaitPiston := cntWaitPiston -1;
-			IF cntWaitInput = WAIT_TIME_PISTON / 2 THEN //timer elapsed = espulsion
+			IF cntWaitPiston = WAIT_TIME_PISTON / 2 THEN //timer elapsed = espulsion
 				DO_PNEO_VENT := 0;
+				cntPartRej := cntPartRej+1;
 			END_IF
-			IF cntWaitInput = 0 THEN
+			IF cntWaitPiston = 0 THEN
 				//new case:
 				ENUM_FSM_STATE := STEP1;
 				//reset counters
 				cntWaitPiston := WAIT_TIME_PISTON;
 				//set outputs
-				// TODO: MOTOR ON
+				bMotorOn := TRUE;
 			END_IF
 		
 	END_CASE
